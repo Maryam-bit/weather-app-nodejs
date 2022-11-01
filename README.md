@@ -16,4 +16,3 @@ This project is using the following technologies/libraries
 - Express JS
 - hbs [Mustache templating language]
 - request [To make HTTP requests]
-## Resources
