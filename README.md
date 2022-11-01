@@ -13,6 +13,6 @@ nodemon src/app.js -e js,hbs
 
 This project is using the following technologies/libraries
 - Node JS
-- Express JS
-- hbs [Mustache templating language]
-- request [To make HTTP requests]
+- [Express JS](https://expressjs.com/) [Node JS framework]
+- [hbs](https://www.npmjs.com/package/hbs) [Mustache templating language]
+- [request](https://www.npmjs.com/package/request) [To make HTTP requests]
