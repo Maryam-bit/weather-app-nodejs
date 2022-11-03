@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback) => {
         } else {
             const tempInCelsius = fToC(body.current.temperature)
             const feelsLikeTempInCelsius = fToC(body.current.feelslike)
-            callback(undefined, `${body.current.weather_descriptions[0]}. It is current ${tempInCelsius.toFixed(1)} degree. But it feels  like ${feelsLikeTempInCelsius.toFixed(1)} degree`)
+            callback(undefined, `${body.current.weather_descriptions[0]}.It is current ${tempInCelsius.toFixed(1)} degree.But it feels like ${feelsLikeTempInCelsius.toFixed(1)} degree. The humidity is ${body.current.humidity}%.`)
         }
     })
 }
